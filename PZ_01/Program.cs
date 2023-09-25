@@ -13,7 +13,7 @@ namespace PZ_01
             double b = Convert.ToDouble(Console.ReadLine());
 
 
-            double c = Convert.ToDouble(Console.ReadLine());
+            double w = Convert.ToDouble(Console.ReadLine());
 
 
             double result;
@@ -26,7 +26,7 @@ namespace PZ_01
             double result3;
 
 
-            result1 = (1 + Math.Abs(b - a)) * (Math.Pow(a,b + 1) + Math.Exp(b-1)) / (1 + (a * Math.Abs(b - Math.Tan(c))));
+            result1 = (1 + Math.Abs(b - a)) * (Math.Pow(a,b + 1) + Math.Exp(b-1)) / (1 + (a * Math.Abs(b - Math.Tan(w))));
 
             result2 = Math.Pow(Math.Abs(b - a), 2) / 2;
 
