@@ -1,0 +1,13 @@
+﻿<Window x:Class="CardApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CardApp" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Карты" FontWeight="Bold" FontSize="16" Margin="10"/>
+            <ListBox Name="CardListBox" Height="200" Margin="10"/>
+            <Button Content="Показать Информацию" Click="ShowCardInfo_Click" Margin="10"/>
+            <TextBlock Name="CardInfoTextBlock" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>
